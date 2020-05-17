@@ -1,0 +1,42 @@
+.tabs-container {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.tabHeader {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #eee;
+  padding: 6px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.activeTab {
+  border: 1px solid #eee !important;
+  border-bottom: none !important;
+}
+
+.tabSection {
+  border: 1px solid #eee;
+  padding: 15px;
+}
+
+.hide-tab {
+  display: none;
+}
+
+.show-tab {
+  display: block;
+}
+
+p {
+  color: #eee;
+  font-size: 1.1rem;
+}
+
+.menu-price {
+  float: right;
+}
